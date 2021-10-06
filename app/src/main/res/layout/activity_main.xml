@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_Healthy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Healthy Guide"
+        android:gravity="center"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btn_food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btn_drink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drink"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btn_exercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Exercise"/>
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Doctor"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btn_healthy_meter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Healthy Meter"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:id="@+id/text_result_meter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today's Healthy Score"
+        android:gravity="center"
+        android:textSize="20dp"/>
+</LinearLayout>

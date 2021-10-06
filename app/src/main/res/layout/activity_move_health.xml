@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoveHealth"
+    android:padding="16dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/text_much"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate your Today's Healthy"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/rg_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/radio_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="exercise while gaining money but smoking"
+            android:layout_marginBottom="16dp"/>
+        <RadioButton
+            android:id="@+id/radio_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="consume healthy food and drink with Exercise"
+            android:layout_marginBottom="16dp"/>
+
+        <RadioButton
+            android:id="@+id/radio_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="consume healthy food and drink without exercise"
+            android:layout_marginBottom="16dp"/>
+
+        <RadioButton
+            android:id="@+id/radio_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="consuming junk product without exercise"
+            android:layout_marginBottom="16dp"/>
+        <RadioButton
+            android:id="@+id/radio_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sleep whole day"
+            android:layout_marginBottom="16dp"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn_see_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="See Result"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
